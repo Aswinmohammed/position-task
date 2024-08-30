@@ -1,0 +1,135 @@
+body{
+    padding-left: 5%;
+    padding-top: 20px;
+    background-color:#C0E6BA ;
+   
+}
+
+.search-container{
+   position: sticky;
+   top: 10px;
+}
+
+.search-bar {
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+    border:0.5px solid ;
+    border-color:whitesmoke ;
+    position: relative;
+
+}
+
+.search-button {
+    position: absolute;
+    right: 480px;
+    top: 12px;
+    background-color: #013237;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 70px;
+}
+
+.search-container p {
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    top: 12px;
+    left: 80px;
+}
+
+.image-container {
+    border: 1px solid black;
+    margin-top: 30px;
+    position: relative;
+    
+}
+
+.image-container img{
+    display: inline-block;
+    position: absolute;
+    border-radius: 15px;
+    
+}
+
+#img1{
+   
+    width: 20%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    top: 15px;
+}
+
+#img7{
+    left: 250px;
+    top: 15px;
+    
+}
+
+#img8{
+    left: 560px;
+    width: 25%;
+    height: 180px;
+    top: 15px;
+}
+
+#img9{
+    left: 860px;
+    width: 250px;
+    height: 180px;
+    top: 15px;
+}
+
+#img3{
+    top: 265px
+}
+
+#img10{
+    top: 225px;
+    left: 255px;
+}
+
+#img11{
+    width: 250px;
+    height: 180px;
+    top: 225px;
+    left: 555px;
+}
+
+#img12{
+    left: 820px;
+    top: 225px;
+}
+
+#img13{
+    width: 30%;
+    top: 470px;
+}
+
+#img2{
+    left: 350px;
+    top: 430px;
+}
+
+#img4{
+    left: 570px;
+    top: 430px;
+}
+
+#img5{
+    top: 430px;
+    left: 870px;
+    width: 20%;
+}
+
+#img6{
+    left: 770px;
+    top: 640px;
+}
+
+#img14{
+    left:360px ;
+    top: 630px;
+    width: 33%;
+    height:180px ;
+}
