@@ -11,10 +11,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div>
+        <nav id="side-menu">
+            <ul>
+                <li>Home</li>
+                <li>Service</li>
+                <li>About </li>
+                <li>Contact</li>
+                <button onclick="closenav()">Close</button>
+            </ul>
+        </nav>
+    </div>
     <div class="search-container">
         <input type="text" class="search-bar" >
         <button class="search-button">Search</button>
         <p>Quote about coding with author's image</p>
+    </div>
+    <div class="navbar-container">
+        <nav>
+            <a href="">Home</a>
+            <a href="">Image</a>
+            <a href="">Video</a>
+            <a href="">News</a>
+            <button onclick="opennav()">Open</button>
+        </nav>
     </div>
 
     <div class="image-container">
@@ -33,6 +53,17 @@
         <img src="OIP (3).jfif" alt="quotes" id="img6">
         <img src="th.jfif" alt="quotes" id="img14">
     </div>
+
+    <script>
+        function opennav(){
+                document.getElementById("side-menu").style.display ="block"
+        }
+
+        function closenav(){
+                document.getElementById("side-menu").style.display ="none"
+        }
+        
+    </script>
 </body>
 </html>
 
